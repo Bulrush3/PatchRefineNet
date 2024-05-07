@@ -6,8 +6,9 @@ numpy
 torchmetrics
 scikit-learn
 pandas
-torchsummary
+torchinfo
 scikit-image
 tensorboard
 matplotlib
 scikit-image
+torchviz

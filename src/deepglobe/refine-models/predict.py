@@ -14,7 +14,7 @@ import numpy as np
 import pandas as pd
 from torch.utils.data import TensorDataset, DataLoader
 from network import ThreshNetP0, ThreshNetP4, ThreshNetP64
-from torchsummary import summary
+from torchinfo import summary
 import matplotlib.pyplot as plt
 from matplotlib import colors
 from matplotlib import cm

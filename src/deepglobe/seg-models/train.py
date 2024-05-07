@@ -17,7 +17,7 @@ from networks.unet import Unet
 from networks.dlinknet import DinkNet34
 from metrics import dice_bce_loss, int_uni
 from data_process import ImageFolder
-from torchsummary import summary
+from torchinfo import summary
 import matplotlib.pyplot as plt
 from tqdm import tqdm
 import logging

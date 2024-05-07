@@ -13,7 +13,7 @@ import torch.nn as nn
 from torch.autograd import Variable
 from torchvision import models
 import torch.nn.functional as F
-from torchsummary import summary
+from torchinfo import summary
 import os
 
 from functools import partial

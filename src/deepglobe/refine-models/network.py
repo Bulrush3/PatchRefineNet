@@ -8,7 +8,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from torchsummary import summary
+from torchinfo import summary
 from torchviz import make_dot
 import warnings
 warnings.filterwarnings("ignore")
